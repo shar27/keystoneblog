@@ -15,7 +15,7 @@ function Nav () {
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         
         <li className="nav-item dropdown">
