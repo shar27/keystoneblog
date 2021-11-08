@@ -32,11 +32,11 @@ function Blog() {
             Eiusmod deserunt id Lorem aliquip id magna nostrud. 
             </p>
             </div>
-            <div>
+            <div className="container p-4">
             <Image
-                src="/school.jpg"
-                width="2000"
-                height="3000"
+                src="/students.jpg"
+                width="1300"
+                height="1400"
             />
         </div>
            

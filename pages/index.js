@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Heading from './components/Heading'
 import Blog from './components/Blog'
 import Dropbox from './components/Dropbox'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     <div>
     <Dropbox/>
       <Booking/>
+      <Footer/>
     </div>
     </div>
   )

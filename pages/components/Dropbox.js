@@ -1,7 +1,8 @@
 import DropboxChooser from 'react-dropbox-chooser'
 import React, {useState} from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const APP_KEY="25yimk69f3etkxa"
+const APP_KEY="zgldeuzlzzilt0u"
 
 export default function Dropbox() {
     
@@ -13,9 +14,9 @@ export default function Dropbox() {
     
     return (
         <div>
-             <h1 style={{textAlign:"center"}}>Upload Or Choose Files to DropBox</h1>
+    <h5 className="display-5 text-center ms-4 ">Upload your file here...</h5>
       <br/><br/>
-    <div className="container">
+    <div className="container  d-flex justify-content-center">
       <DropboxChooser appKey={APP_KEY}
                       success={handleSuccess}
                       cancel={() => console.log('closed')}
