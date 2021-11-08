@@ -9,6 +9,8 @@ import Blog from './components/Blog'
 import Dropbox from './components/Dropbox'
 import Footer from './components/Footer'
 
+
+
 export default function Home() {
   return (
     <div>
