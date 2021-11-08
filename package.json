@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
+    "dropbox": "^10.18.0",
     "next": "12.0.3",
     "react": "17.0.2",
+    "react-calendly": "^2.2.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
