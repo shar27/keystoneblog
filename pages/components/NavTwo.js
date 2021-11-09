@@ -1,10 +1,16 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 
-
-function Nav () {
+function NavTwo() {
     return (
+      
         <div>
+        <Head>
+<title>Writing</title>
+<meta name="description" content="The best writing resources for getting you ready for the TOEFL"/> 
+</Head>  
+            <div>
     <Link  href="/">
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
@@ -33,7 +39,7 @@ function Nav () {
        
         <li className="nav-item dropdown">
         <Link href="/">
-          <a className="nav-link active dropdown-toggle"  
+          <a className="nav-link dropdown-toggle active" 
            id="navbarDropdownMenuLink" role="button" 
           data-bs-toggle="dropdown" aria-expanded="false">
             Writing
@@ -41,24 +47,24 @@ function Nav () {
           </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <Link href="/WritingOne">
-            <li><a className="dropdown-item ">Integrated writing</a></li>
+            <li><a className="dropdown-item">Integrated writing</a></li>
             </Link>
             <Link href="/WritingTwo">
-            <li><a className="dropdown-item ">Independent writing</a></li>
+            <li><a className="dropdown-item">Writing two</a></li>
             </Link>
           </ul>
         </li>
         <li className="nav-item dropdown">
         
-          <a className="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Listening
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <Link href="/ListeningOne">
-            <li><a className="dropdown-item ">Listening one</a></li>
+            <li><a className="dropdown-item">Listening one</a></li>
             </Link>
             <Link href="/ListeningTwo">
-            <li><a className="dropdown-item " >Listening two</a></li>
+            <li><a className="dropdown-item" >Listening two</a></li>
             </Link>
           </ul>
         </li>
@@ -70,10 +76,10 @@ function Nav () {
          
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <Link href="/ReadingOne">
-            <li><a className="dropdown-item " >Reading one</a></li>
+            <li><a className="dropdown-item" >Reading one</a></li>
             </Link>
             <Link href="/ReadingTwo">
-            <li><a className="dropdown-item " >Reading two</a></li>
+            <li><a className="dropdown-item" >Reading two</a></li>
             </Link>
           </ul>
         </li>
@@ -86,10 +92,10 @@ function Nav () {
             <li><a className="dropdown-item" >Speaking one</a></li>
             </Link>
             <Link href="/SpeakingTwo">
-            <li><a className="dropdown-item " >Speaking two</a></li>
+            <li><a className="dropdown-item" >Speaking two</a></li>
             </Link>
             <Link href="/SpeakingThree">
-            <li><a className="dropdown-item " >Speaking three</a></li>
+            <li><a className="dropdown-item" >Speaking three</a></li>
             </Link>
             <Link href="/SpeakingFour">
             <li><a className="dropdown-item" >Speaking four</a></li>
@@ -105,10 +111,10 @@ function Nav () {
           </a>
           </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="#feedback">
+          <Link href="/#feedback">
             <li><a className="dropdown-item">Essay feedback</a></li>
             </Link>
-            <Link href="#feedback">
+            <Link href="/#feedback">
             <li><a className="dropdown-item">Assignment feedback</a></li>
               </Link>
           </ul>
@@ -119,7 +125,12 @@ function Nav () {
 </nav>
     </Link>
         </div>
+        <div>
+
+        </div>
+        </div>
+        
     )
 }
 
-export default Nav
+export default NavTwo

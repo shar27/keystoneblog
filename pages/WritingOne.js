@@ -1,130 +1,85 @@
 import Nav from "./components/Nav"
 import Link from 'next/link'
 import Head from 'next/head'
+import NavTwo from "./components/NavTwo"
 
 
 function WritingOne() {
     return (
         <div>
-        <Head>
-<title>Writing</title>
+  <Head>
+<title>Integrated writing</title>
 <meta name="description" content="The best writing resources for getting you ready for the TOEFL"/> 
 </Head>  
-            <div>
-    <Link  href="/">
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div className="container-fluid">
-    <a className="navbar-brand">TakeToefl</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul className="navbar-nav">
-      <Link href="/">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        </Link>
-        <li className="nav-item">
-        
-        <Link href="/About">
-          <a className="nav-link active" 
-           role="button" 
-           >
-            About
-          </a>
-          </Link>
-         
-        </li>
-       
-        <li className="nav-item dropdown">
-        <Link href="/">
-          <a className="nav-link dropdown-toggle active" 
-           id="navbarDropdownMenuLink" role="button" 
-          data-bs-toggle="dropdown" aria-expanded="false">
-            Writing
-          </a>
-          </Link>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="/WritingOne">
-            <li><a className="dropdown-item">Writing one</a></li>
-            </Link>
-            <Link href="/WritingTwo">
-            <li><a className="dropdown-item">Writing two</a></li>
-            </Link>
-          </ul>
-        </li>
-        <li className="nav-item dropdown">
-        
-          <a className="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Listening
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="/ListeningOne">
-            <li><a className="dropdown-item">Listening one</a></li>
-            </Link>
-            <Link href="/ListeningTwo">
-            <li><a className="dropdown-item" >Listening two</a></li>
-            </Link>
-          </ul>
-        </li>
-        <li className="nav-item dropdown">
-        
-          <a className="nav-link dropdown-toggle active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Reading
-          </a>
-         
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="/ReadingOne">
-            <li><a className="dropdown-item" >Reading one</a></li>
-            </Link>
-            <Link href="/ReadingTwo">
-            <li><a className="dropdown-item" >Reading two</a></li>
-            </Link>
-          </ul>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle active"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Speaking
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="/SpeakingOne">
-            <li><a className="dropdown-item" >Speaking one</a></li>
-            </Link>
-            <Link href="/SpeakingTwo">
-            <li><a className="dropdown-item" >Speaking two</a></li>
-            </Link>
-            <Link href="/SpeakingThree">
-            <li><a className="dropdown-item" >Speaking three</a></li>
-            </Link>
-            <Link href="/SpeakingFour">
-            <li><a className="dropdown-item" >Speaking four</a></li>
-            </Link>
-          </ul>
-        </li>
-        
-        
-        <li className="nav-item dropdown">
-        <Link href="#feedback"> 
-          <a className="nav-link dropdown-toggle active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Feedback
-          </a>
-          </Link>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="/#feedback">
-            <li><a className="dropdown-item">Essay feedback</a></li>
-            </Link>
-            <Link href="/#feedback">
-            <li><a className="dropdown-item">Assignment feedback</a></li>
-              </Link>
-          </ul>
-        </li>
-      </ul>
-    </div>
+  <NavTwo/>
+
+  <div className="container">
+  <h5>Summarize the points made in the lecture, being sure to explain how they respond to the specific
+points made in the reading passage</h5>
+<h1>1. Integrated Task</h1>
+<p>The passage and the lecture each target two different explanations for the decline of sea otters in
+Alaskan waters; the passage subscribes to the environmental pollution theory which attributes the
+decline to the prevalence of industrial waste in the regio
+n while the lecture contends that predators are
+responsible for the decline instead.
+The passage supports the environmental pollution hypothesis with specific mention to chemically
+damaged water, the decline of other sea animals in the area and the uneve
+n pattern with which otters
+have disappeared. The lecture responds to this by proposing an alternative explanation which can
+produce the same results that have been highlighted by the passage; that due to the decline of whales
+in the area, the orcas have h
+ad to start hunting smaller animals like otters and seals instead.
+The uneven pattern of decline can also be attributed to the fact that orcas are large animals. This means
+that they cannot hunt effectively in shallow or rocky waters which also happen to
+be the type of regions
+where sea otter populations have not declined. The lecture, points out that these shallow areas are also
+the same exact places where the otter population still remains relatively unchanged</p>
   </div>
-</nav>
-    </Link>
-        </div>
+
+  <div className="container">
+  <h5>Summarize the points made in the lecture, being sure to explain how they respond to the specific
+points made in the reading passage</h5>
+<h1>2. Integrated Task</h1>
+<p>The passage and the lecture each target two different explanations for the decline of sea otters in
+Alaskan waters; the passage subscribes to the environmental pollution theory which attributes the
+decline to the prevalence of industrial waste in the regio
+n while the lecture contends that predators are
+responsible for the decline instead.
+The passage supports the environmental pollution hypothesis with specific mention to chemically
+damaged water, the decline of other sea animals in the area and the uneve
+n pattern with which otters
+have disappeared. The lecture responds to this by proposing an alternative explanation which can
+produce the same results that have been highlighted by the passage; that due to the decline of whales
+in the area, the orcas have h
+ad to start hunting smaller animals like otters and seals instead.
+The uneven pattern of decline can also be attributed to the fact that orcas are large animals. This means
+that they cannot hunt effectively in shallow or rocky waters which also happen to
+be the type of regions
+where sea otter populations have not declined. The lecture, points out that these shallow areas are also
+the same exact places where the otter population still remains relatively unchanged</p>
+  </div>
+  <div className="container">
+  <h5>Summarize the points made in the lecture, being sure to explain how they respond to the specific
+points made in the reading passage</h5>
+<h1>3. Integrated Task</h1>
+<p>The passage and the lecture each target two different explanations for the decline of sea otters in
+Alaskan waters; the passage subscribes to the environmental pollution theory which attributes the
+decline to the prevalence of industrial waste in the regio
+n while the lecture contends that predators are
+responsible for the decline instead.
+The passage supports the environmental pollution hypothesis with specific mention to chemically
+damaged water, the decline of other sea animals in the area and the uneve
+n pattern with which otters
+have disappeared. The lecture responds to this by proposing an alternative explanation which can
+produce the same results that have been highlighted by the passage; that due to the decline of whales
+in the area, the orcas have h
+ad to start hunting smaller animals like otters and seals instead.
+The uneven pattern of decline can also be attributed to the fact that orcas are large animals. This means
+that they cannot hunt effectively in shallow or rocky waters which also happen to
+be the type of regions
+where sea otter populations have not declined. The lecture, points out that these shallow areas are also
+the same exact places where the otter population still remains relatively unchanged</p>
+  </div>
         </div>
     )
 }
