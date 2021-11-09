@@ -1,6 +1,6 @@
 import Nav from "./components/Nav"
 import Link from 'next/link'
-import Head from 'next/link'
+import Head from 'next/head'
 
 function WritingTwo() {
     return (
