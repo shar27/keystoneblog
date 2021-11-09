@@ -10,7 +10,7 @@ function ReadingTwo() {
 <title>Reading</title>
 <meta name="description" content="The best reading resources for getting you ready for the TOEFL"/> 
 </Head>
-         <d
+         
             <div>
     <Link  href="/">
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
