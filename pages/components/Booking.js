@@ -12,9 +12,9 @@ function Booking () {
         
         <div className="container">
       
-      <div className="container col-sm-12 col-md-6">
+      <div className="container col-sm-12 col-md-6 pt-5 d-flex justify-content-center">
       <InlineWidget 
-      styles={{height: '400px', width: '400px'}} 
+      styles={{height: '400px', width: '300px'}} 
       url="https://calendly.com/testprepnow" /> 
     </div>
     </div>

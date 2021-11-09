@@ -9,27 +9,24 @@ function Blog() {
 
         <div className="container text-center">
         <div className="row row-cols-2">
-            <div className="container text-start mb-0 pb-0">
-            <h1>Beat the Toefl</h1>
+            <div className="container text-start mb-4 pb-0">
+            <h1 className="display-3"><em>Beat the Toefl</em></h1>
             <p className="lead d-flex text-start">
                 Ea proident pariatur sit voluptate proident pariatur adipisicing excepteur. Aute non ad nostrud cillum est id ea ut incididunt exercitation. 
                
             </p>
 
-            <h1 className="display-5 text-center">Hello</h1>
-            <p className="lead text-center"> Excepteur veniam est Lorem reprehenderit incididunt enim Lorem dolor elit. 
-            Ut exercitation voluptate laborum proident. Culpa id eiusmod proident officia ex eiusmod anim qui tempor. 
-            Eiusmod deserunt id Lorem aliquip id magna nostrud. 
+            <h1 className="display-5 text-start">Writing</h1>
+            <p className="lead text-start"> Excepteur veniam est Lorem reprehenderit incididunt enim Lorem dolor elit. 
+            Ut exercitation voluptate laborum proident.
             </p>
-            <h1 className="display-5 text-center">Hello</h1>
-            <p className="lead text-center"> Excepteur veniam est Lorem reprehenderit incididunt enim Lorem dolor elit. 
-            Ut exercitation voluptate laborum proident. Culpa id eiusmod proident officia ex eiusmod anim qui tempor. 
-            Eiusmod deserunt id Lorem aliquip id magna nostrud. 
+            <h1 className="display-5 text-start">Speaking</h1>
+            <p className="lead text-start"> Excepteur veniam est Lorem reprehenderit incididunt enim Lorem dolor elit. 
+            Ut exercitation voluptate laborum proident. 
             </p>
-            <h1 className="display-5 text-center">Hello</h1>
-            <p className="lead text-center"> Excepteur veniam est Lorem reprehenderit incididunt enim Lorem dolor elit. 
-            Ut exercitation voluptate laborum proident. Culpa id eiusmod proident officia ex eiusmod anim qui tempor. 
-            Eiusmod deserunt id Lorem aliquip id magna nostrud. 
+            <h1 className="display-5 text-start">Reading</h1>
+            <p className="lead text-start"> Excepteur veniam est Lorem reprehenderit incididunt enim Lorem dolor elit. 
+            Ut exercitation voluptate laborum proident. 
             </p>
             </div>
             <div className="container p-4 col-12 col-lg-6">

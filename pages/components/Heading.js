@@ -5,7 +5,7 @@ export default function Heading() {
         <div className="container">
         
         
-            <h1 className="display-4 ">TakeToefl</h1>
+            <h1 className="display text-center col-sm-12 text-sm-center col-md-12 text-md-center">TakeToefl</h1>
         </div>
         
     )
