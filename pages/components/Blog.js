@@ -33,7 +33,7 @@ function Blog() {
             <Image
                 priority
                 src="/students.jpg"
-                alt="kids"
+                alt="students"
                 width="1300"
                 height="1400"
             />
