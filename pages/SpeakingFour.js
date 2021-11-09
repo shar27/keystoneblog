@@ -26,10 +26,21 @@ function SpeakingFour() {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         </Link>
+        <li className="nav-item">
         
+        <Link href="/About">
+          <a className="nav-link active" 
+           role="button" 
+           >
+            About
+          </a>
+          </Link>
+         
+        </li>
+       
         <li className="nav-item dropdown">
         <Link href="/">
-          <a className="nav-link dropdown-toggle" 
+          <a className="nav-link dropdown-toggle active" 
            id="navbarDropdownMenuLink" role="button" 
           data-bs-toggle="dropdown" aria-expanded="false">
             Writing
@@ -46,7 +57,7 @@ function SpeakingFour() {
         </li>
         <li className="nav-item dropdown">
         
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Listening
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -60,7 +71,7 @@ function SpeakingFour() {
         </li>
         <li className="nav-item dropdown">
         
-          <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Reading
           </a>
          
@@ -74,7 +85,7 @@ function SpeakingFour() {
           </ul>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle active"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Speaking
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -96,7 +107,7 @@ function SpeakingFour() {
         
         <li className="nav-item dropdown">
         <Link href="/#feedback"> 
-          <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Feedback
           </a>
           </Link>

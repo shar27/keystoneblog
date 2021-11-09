@@ -1,17 +1,17 @@
-import Nav from "./components/Nav"
-import Link from 'next/link'
 import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image'
 
-function ReadingTwo() {
+function About() {
     return (
-        <div>
- <Head>
+<div>
+    <Head>
 
-<title>Reading</title>
-<meta name="description" content="The best reading resources for getting you ready for the TOEFL"/> 
+    <title>About</title>
+    <meta name="description" content="I am Michael Eshun and I am the author of this sites content"/> 
 </Head>
          
-            <div>
+    <div>
     <Link  href="/">
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
@@ -23,7 +23,7 @@ function ReadingTwo() {
       <ul className="navbar-nav">
       <Link href="/">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <a className="nav-link active" aria-current="page">Home</a>
         </li>
         </Link>
         <li className="nav-item">
@@ -126,8 +126,9 @@ function ReadingTwo() {
 </nav>
     </Link>
         </div>
+
         </div>
     )
 }
 
-export default ReadingTwo
+export default About
