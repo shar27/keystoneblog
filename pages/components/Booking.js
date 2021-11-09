@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Booking () {
     return (
-<div>
+<div id="feedback">
 <h5 className="display-5 col-md-12 text-center text-sm-center text-md-center text-lg-center pb-5">Book a lesson with me</h5>
 
         
