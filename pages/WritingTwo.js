@@ -1,10 +1,14 @@
 import Nav from "./components/Nav"
 import Link from 'next/link'
-
+import Head from 'next/link'
 
 function WritingTwo() {
     return (
         <div>
+  <Head>
+<title>Writing</title>
+<meta name="description" content="The best writing resources for getting you ready for the TOEFL"/> 
+</Head>  
            <div>
     <Link  href="/">
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

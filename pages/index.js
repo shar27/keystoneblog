@@ -13,7 +13,16 @@ import Footer from './components/Footer'
 
 export default function Home() {
   return (
+    
+
+
     <div>
+
+<Head>
+
+<title>Home</title>
+<meta name="description" content="The best resource for getting you ready for the TOEFL"/> 
+</Head>
 
     <Nav/>
     <Heading/>
@@ -27,5 +36,6 @@ export default function Home() {
       <Footer/>
     </div>
     </div>
+    
   )
 }

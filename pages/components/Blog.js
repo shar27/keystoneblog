@@ -31,7 +31,9 @@ function Blog() {
             </div>
             <div className="container p-4 col-12 col-lg-6">
             <Image
+                priority
                 src="/students.jpg"
+                alt="kids"
                 width="1300"
                 height="1400"
             />
