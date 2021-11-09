@@ -6,10 +6,7 @@ function NavTwo() {
     return (
       
         <div>
-        <Head>
-<title>Writing</title>
-<meta name="description" content="The best writing resources for getting you ready for the TOEFL"/> 
-</Head>  
+
             <div>
     <Link  href="/">
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -50,7 +47,7 @@ function NavTwo() {
             <li><a className="dropdown-item">Integrated writing</a></li>
             </Link>
             <Link href="/WritingTwo">
-            <li><a className="dropdown-item">Writing two</a></li>
+            <li><a className="dropdown-item">Independent writing</a></li>
             </Link>
           </ul>
         </li>
