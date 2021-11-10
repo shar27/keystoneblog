@@ -15,6 +15,7 @@ export default function Dropbox() {
     return (
         <div>
     <h5 className="display-5 text-center ms-4 ">Upload your file here...</h5>
+    <p className=" lead text-center"> Please include your full name and title of the document.</p>
       <br/><br/>
     <div className="container  d-flex justify-content-center">
       <DropboxChooser appKey={APP_KEY}

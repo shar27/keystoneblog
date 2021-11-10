@@ -12,22 +12,22 @@ function Blog() {
             <div className="container text-start mb-4 pb-0">
             <h1 className="display-3"><em>Beat the Toefl</em></h1>
             <p className="lead d-flex text-start">
-                Ea proident pariatur sit voluptate proident pariatur adipisicing excepteur. Aute non ad nostrud cillum est id ea ut incididunt exercitation. 
-               
+                Do you want to improve your TOEFL score?
             </p>
 
             <h1 className="display-5 text-start">Writing</h1>
-            <p className="lead text-start"> Excepteur veniam est Lorem reprehenderit incididunt enim Lorem dolor elit. 
-            Ut exercitation voluptate laborum proident.
+            <p className="lead text-start"> Writing guides
             </p>
             <h1 className="display-5 text-start">Speaking</h1>
-            <p className="lead text-start"> Excepteur veniam est Lorem reprehenderit incididunt enim Lorem dolor elit. 
-            Ut exercitation voluptate laborum proident. 
+            <p className="lead text-start"> Speaking guides 
             </p>
             <h1 className="display-5 text-start">Reading</h1>
-            <p className="lead text-start"> Excepteur veniam est Lorem reprehenderit incididunt enim Lorem dolor elit. 
-            Ut exercitation voluptate laborum proident. 
+            <p className="lead text-start">  Reading guides
             </p>
+            <h1 className="display-5 text-start">Essays</h1>
+            <p className="lead text-start"> Sample guides
+            </p>
+           
             </div>
             <div className="container p-4 col-12 col-lg-6">
             <Image
